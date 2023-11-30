@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,600;1,400&family=Poppins:wght@300&display=swap');
+
+
+:root {
+    --bg-color: #242525;
+    --color-primary: #06639b;
+    --color-secundary: #d8d8d8;
+    --color-tertiary: #0000;
+    --color-gradient: linear-gradient(90deg, var(--color-primary), #01e196);
+
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.counter-title {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 72px;
+    background: var(--color-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.counter-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.counter-sub-title {
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    color: var(--color-secundary);
+}
+
+.number-container {
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    color: var(--color-secundary);
+    font-size: 25px;
+}
+
+.button-container {
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    color: var(--color-secundary);
+    font-size: 25px;
+    gap: 1.5em;
+}
+
+.button-container button {
+    font-family: 'Exo 2', sans-serif;
+    padding: 13px 0px;
+    width: 200px;
+    font-size: 17px;
+    color: var(--color-secundary);
+    background-color: #575757;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    font-size: 28px;
+}
