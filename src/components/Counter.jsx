@@ -15,8 +15,8 @@ function Counter() {
                 <button className='counter-button' onClick={() => setCount(count + 1)}>
                     <span className='sum'>+</span>
                 </button>
-                <button className='counter-button'>
-                    <span className='substract' onClick={() => setCount(count - 1)}>-</span>
+                <button className='counter-button' onClick={() => setCount(count - 1)}>
+                    <span className='substract'>-</span>
                 </button>
             </div>
 
